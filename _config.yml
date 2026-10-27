@@ -1,0 +1,30 @@
+# ===== 基本信息（改成你自己的）=====
+title: 杨依涵的知识博客
+description: 记录学习心得与知识经验
+author: 杨依涵
+
+# ===== 地址设置 =====
+# 仓库名是 Yangyihan，所以 baseurl 必须写 /Yangyihan
+url: "https://meows-max.github.io"
+baseurl: "/Yangyihan"
+
+# ===== 主题 =====
+# minima 是 GitHub Pages 原生支持的主题，不需要额外配置
+theme: minima
+
+# ===== 头部导航 =====
+header_pages:
+  - about.md
+
+# ===== 构建选项 =====
+markdown: kramdown
+
+# GitHub Pages 默认已加载 jekyll-feed，这里声明会报错，故注释掉
+# plugins:
+#   - jekyll-feed
+
+# ===== 排除文件，不参与构建 =====
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
